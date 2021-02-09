@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import rospy
-from .main import setup, loop
+from .control import setup, loop
 
 
 CONTROL_RATE = 10  # Hz
