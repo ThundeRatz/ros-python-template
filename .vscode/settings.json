@@ -1,0 +1,7 @@
+{
+  "ros.distro": "noetic",
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/noetic/lib/python3/dist-packages"
+  ],
+  "markdown.extension.toc.levels": "2..6",
+}
