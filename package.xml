@@ -4,11 +4,17 @@
   <version>0.0.0</version>
   <description>The meu_primeiro_robo package</description>
 
-  <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="ademir@todo.todo">felipe</maintainer>
-
+  <maintainer email="felipe.bagni@thunderatz.org">Felipe Bagni</maintainer>
+  <maintainer email="felipegmelo@usp.br">Felipe Gomes de Melo</maintainer>
+  <maintainer email="felipe.luna@thunderatz.org">Felipe Luna</maintainer>
+  <maintainer email="gabriel.kishida@thunderatz.org">Gabriel Kishida</maintainer>
+  <maintainer email="leticia.kimoto@thunderatz.org">Leticia Kimoto</maintainer>
+  <maintainer email="thalles.carneiro@thunderatz.org">Lucas Haug</maintainer>
+  <maintainer email="lucas.schneider@thunderatz.org">Lucas Schneider</maintainer>
+  <maintainer email="maria.rezende@thunderatz.org">Maria Fernanda Rezende</maintainer>
+  <maintainer email="lucas.haug@thunderatz.org">Thalles Carneiro</maintainer>
+  <maintainer email="vanderson.santos@thunderatz.org">Vanderson dos Santos</maintainer>
+  <maintainer email="wu.kam@thunderatz.org">Wu Kam Long</maintainer>
 
   <!-- One license tag required, multiple allowed, one license per tag -->
   <!-- Commonly used license strings: -->
