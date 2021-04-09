@@ -8,7 +8,7 @@ class LineSensor:
         Args:
             topic_name (string): Nome do tópico do sensor de linha
         """
-        self.brightness= None
+        self.brightness = None
         self.topic_name = topic_name
 
     def initialise(self):
