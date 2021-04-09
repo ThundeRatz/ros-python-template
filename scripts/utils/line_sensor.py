@@ -15,7 +15,7 @@ class LineSensor:
         """Inicializa o subscriber para leitura do sensor
         """
         rospy.Subscriber(self.topic_name, UInt32, self._callback)
-        rospy.loginfo(f"Inicializando sensor de distância {rospy.get_time()}")
+        rospy.loginfo(f"Inicializando sensor de linha {rospy.get_time()}")
 
     def _callback(self, data):
         """Função de callback necessária para receber informação do subscriber
