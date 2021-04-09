@@ -27,7 +27,7 @@ class LineSensor:
 
     def get_brightness(self):
         """ Método para obter o valor da última leitura de luz refletida
-            A leitura varia de 0 (mais clara/branca possível) para 1023 (mais escura/preta possível)
+            A leitura varia de 0 (mais clara possível) para 1023 (mais escura possível)
         Returns:
             uint32 : retorna o valor da última leitura de luz
         """
