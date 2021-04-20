@@ -86,6 +86,52 @@ def loop():
 
 ### ➖ Sensores de linha
 
+Para utilizar a biblioteca dos sensores de linha, primeiro faça o import da classe `LineSensor`, disponível no módulo `utils.line_sensor`.
+
+```python
+from utils.line_sensor import LineSensor
+```
+
+Em seguida, crie uma variável do tipo `LineSensor`, especificando o tópico do sensor.
+
+```python
+my_line_sensor = LineSensor('topico/do/sensor/de/linha')
+```
+
+Na função de setup, é preciso inicializar nosso sensor de linha, para isso, chame o método `initialise()`.
+
+```python
+def setup():
+  # ...
+  my_line_sensor.initialise()
+```
+
+Para ler o último valor de luminosidade obtido pelo sensor, utilize o método `get_brightness()`.
+
+```python
+def loop():
+  # ...
+  brightness_reading = my_line_sensor.get_brightness()
+```
+
+Juntando tudo, o código de leitura de um sensor de linha deve ficar parecido com esse:
+
+```python
+from utils.line_sensor import LineSensor
+
+my_line_sensor = LineSensor('topico/do/sensor/de/linha')
+
+def setup():
+  # ...
+  my_line_sensor.initialise()
+
+def loop():
+  # ...
+  brightness_reading = my_line_sensor.get_brightness()
+```
+
+Dica: você precisará criar diversos sensores de linha, um para cada sensor que você colocar no seu modelo, então armazene todos eles em uma lista para deixar o código mais organizado!
+
 ### 🏎️ Motores
 
 ```python
