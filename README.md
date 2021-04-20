@@ -21,10 +21,10 @@ A partir desse respositório que você construirá o código de controle do seu 
 ## 📂 Arquivos no projeto
 
 - **scripts/**
-  - **control.py** - Arquivo onde a lógica de controle do robô será implementada
-  - **run.py** - Arquivo a ser executado para controlar o robô
-  - **utils/** - Pasta com bibliotecas para auxiliar no desenvolvimento do projeto
-- **CMakeLists.txt** e **package.xml** - Arquivos de configuração do pacote ROS
+  - **control.py** - Arquivo onde a lógica de controle do robô será implementada. É nesse arquivo que você e seu grupo deverão escrever o código do robô.
+  - **run.py** - Arquivo a ser executado para controlar o robô. **Não modifique!**
+  - **utils/** - Pasta com bibliotecas para auxiliar no desenvolvimento do projeto.
+- **CMakeLists.txt** e **package.xml** - Arquivos de configuração do pacote ROS. **Não modifique!**
 
 ## 🔨 Como executar
 
