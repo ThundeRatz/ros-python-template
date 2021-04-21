@@ -1,6 +1,6 @@
 # 🤖 ros-python-template 🐍
 
-Esse é um exemplo de um projeto simples de ROS feito em python, que segue a mesma estrutura de um projeto de Arduino
+Esse é um exemplo de um projeto simples de ROS feito em Python, que segue a mesma estrutura de um projeto de Arduino
 
 ## Índice<!-- omit in toc -->
 
@@ -14,7 +14,7 @@ Esse é um exemplo de um projeto simples de ROS feito em python, que segue a mes
 
 ## 🎈 Introdução
 
-A partir desse respositório que você construirá o código de controle do seu primeiro robô seguidor de linha simulado! Lembre-se de baixar (ou clonar) no mesmo workspace catkin que você criou enquanto seguia o tutorial de [como executar o projeto](https://thunderatz.github.io/ROSGazeboGuide/HowToRun/README.html).
+A partir desse repositório que você construirá o código de controle do seu primeiro robô seguidor de linha simulado! Lembre-se de baixar (ou clonar) no mesmo workspace catkin que você criou enquanto seguia o tutorial de [como executar o projeto](https://thunderatz.github.io/ROSGazeboGuide/HowToRun/README.html).
 
 ![Download](./docs/guia_download.png)
 
@@ -36,7 +36,7 @@ rosrun meu_primeiro_robo run.py
 
 ## 📚 Como utilizar as bibliotecas
 
-Dentro da pasta **scripts/utils/**, existem alguns módulos de python para facilitar o desenvolvimento do código de controle do carrinho. A seguir, você encontrará uma breve descrição de como usar cada um deles.
+Dentro da pasta **scripts/utils/**, existem alguns módulos de Python para facilitar o desenvolvimento do código de controle do carrinho. A seguir, você encontrará uma breve descrição de como usar cada um deles.
 
 ### 🔦 Sensores de distância
 
@@ -138,13 +138,13 @@ Dica: você precisará criar diversos sensores de linha, um para cada sensor que
 from utils.motors import Motors
 ```
 
-Para utilizar a biblioteca de controle dos motores, é necessário declarar uma variável do tipo `Motors`. Para fazer isso, é necessário especificar as interfaces de controle com cada motor
+Para utilizar a biblioteca de controle dos motores, é necessário declarar uma variável do tipo `Motors`. Para fazer isso, é necessário especificar as interfaces de controle com cada motor.
 
 ```python
 motors = Motors('/topico/do/motor/esquerdo', '/topico/do/motor/direito')
 ```
 
-Antes de utilizar da interface de controle, é necessário inicializar a variável por meio da função `initialise()`. É recomendável que isso seja feito dentro da função `setup()`
+Antes de utilizar a interface de controle, é necessário inicializar a variável por meio da função `initialise()`. É recomendável que isso seja feito dentro da função `setup()`.
 
 ```python
 def setup():
@@ -160,7 +160,7 @@ def loop():
   motors.drive(80, 80)
 ```
 
-Juntando tudo, o código de controle deve conter os trechos
+Juntando tudo, o código de controle deve conter os trechos:
 
 ```python
 from utils.motors import Motors
