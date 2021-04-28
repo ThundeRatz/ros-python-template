@@ -8,9 +8,9 @@ class DistanceSensor:
         Args:
             topic_name (string): Nome do tópico do sensor de distância
         """
-        self.range = None
-        self.max_range = None
-        self.min_range = None
+        self.range = 0
+        self.max_range = 0
+        self.min_range = 0
         self.topic_name = topic_name
 
     def initialise(self):
