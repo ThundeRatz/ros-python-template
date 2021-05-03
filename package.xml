@@ -4,62 +4,32 @@
   <version>0.0.0</version>
   <description>The meu_primeiro_robo package</description>
 
-  <maintainer email="felipe.bagni@thunderatz.org">Felipe Bagni</maintainer>
-  <maintainer email="felipegmelo@usp.br">Felipe Gomes de Melo</maintainer>
-  <maintainer email="felipe.luna@thunderatz.org">Felipe Luna</maintainer>
-  <maintainer email="gabriel.kishida@thunderatz.org">Gabriel Kishida</maintainer>
-  <maintainer email="leticia.kimoto@thunderatz.org">Leticia Kimoto</maintainer>
-  <maintainer email="thalles.carneiro@thunderatz.org">Thalles Carneiro</maintainer>
-  <maintainer email="lucas.schneider@thunderatz.org">Lucas Schneider</maintainer>
-  <maintainer email="maria.rezende@thunderatz.org">Maria Fernanda Rezende</maintainer>
-  <maintainer email="lucas.haug@thunderatz.org">Lucas Haug</maintainer>
-  <maintainer email="vanderson.santos@thunderatz.org">Vanderson dos Santos</maintainer>
-  <maintainer email="wu.kam@thunderatz.org">Wu Kam Long</maintainer>
+  <maintainer email="comp@thunderatz.org">Equipe ThundeRatz</maintainer>
 
-  <!-- One license tag required, multiple allowed, one license per tag -->
-  <!-- Commonly used license strings: -->
-  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <author email="felipe.bagni@thunderatz.org">Felipe Bagni</author>
+  <author email="felipe.gomes@thunderatz.org">Felipe Gomes de Melo</author>
+  <author email="felipe.luna@thunderatz.org">Felipe Luna</author>
+  <author email="gabriel.kishida@thunderatz.org">Gabriel Kishida</author>
+  <author email="leticia.kimoto@thunderatz.org">Leticia Kimoto</author>
+  <author email="thalles.carneiro@thunderatz.org">Thalles Carneiro</author>
+  <author email="lucas.schneider@thunderatz.org">Lucas Schneider</author>
+  <author email="maria.rezende@thunderatz.org">Maria Fernanda Rezende</author>
+  <author email="lucas.haug@thunderatz.org">Lucas Haug</author>
+  <author email="vanderson.santos@thunderatz.org">Vanderson dos Santos</author>
+  <author email="wu.kam@thunderatz.org">Wu Kam Long</author>
+
   <license>MIT</license>
 
 
   <!-- Url tags are optional, but multiple are allowed, one per tag -->
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
-  <!-- <url type="website">http://wiki.ros.org/meu_primeiro_robo</url> -->
+  <url type="repository">https://github.com/ThundeRatz/ros-python-template</url>
 
+  <depend>rospy</depend>
 
-  <!-- Author tags are optional, multiple are allowed, one per tag -->
-  <!-- Authors do not have to be maintainers, but could be -->
-  <!-- Example: -->
-  <!-- <author email="jane.doe@example.com">Jane Doe</author> -->
-
-
-  <!-- The *depend tags are used to specify dependencies -->
-  <!-- Dependencies can be catkin packages or system dependencies -->
-  <!-- Examples: -->
-  <!-- Use depend as a shortcut for packages that are both build and exec dependencies -->
-  <!--   <depend>roscpp</depend> -->
-  <!--   Note that this is equivalent to the following: -->
-  <!--   <build_depend>roscpp</build_depend> -->
-  <!--   <exec_depend>roscpp</exec_depend> -->
-  <!-- Use build_depend for packages you need at compile time: -->
-  <!--   <build_depend>message_generation</build_depend> -->
-  <!-- Use build_export_depend for packages you need in order to build against this package: -->
-  <!--   <build_export_depend>message_generation</build_export_depend> -->
-  <!-- Use buildtool_depend for build tool packages: -->
-  <!--   <buildtool_depend>catkin</buildtool_depend> -->
-  <!-- Use exec_depend for packages you need at runtime: -->
-  <!--   <exec_depend>message_runtime</exec_depend> -->
-  <!-- Use test_depend for packages you need only for testing: -->
-  <!--   <test_depend>gtest</test_depend> -->
-  <!-- Use doc_depend for packages you need only for building documentation: -->
-  <!--   <doc_depend>doxygen</doc_depend> -->
   <buildtool_depend>catkin</buildtool_depend>
 
-
-  <!-- The export tag contains other, unspecified, tags -->
   <export>
-    <!-- Other tools can request additional information be placed here -->
-
   </export>
 </package>
