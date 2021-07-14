@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>meu_primeiro_robo</name>
+  <name>pmr3100_controlador</name>
   <version>0.0.0</version>
-  <description>The meu_primeiro_robo package</description>
+  <description>The pmr3100_controlador package</description>
 
   <maintainer email="comp@thunderatz.org">Equipe ThundeRatz</maintainer>
 
