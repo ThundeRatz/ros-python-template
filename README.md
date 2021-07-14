@@ -31,7 +31,7 @@ A partir desse repositório que você construirá o código de controle do seu p
 Antes de executar o código de controle, é preciso que a [simulação do Gazebo](https://github.com/ThundeRatz/gazebo_modelo_carrinho) esteja rodando. Depois disso, basta executar o comando
 
 ```bash
-rosrun meu_primeiro_robo run.py
+rosrun pmr3100_controlador run.py
 ```
 
 ## 📚 Como utilizar as bibliotecas
